@@ -1,0 +1,13 @@
+
+
+<div>
+    <h2>Cursos disponibles:</h2>
+    <ul *ngFor="let curso of cursos">
+        <li>
+            <h4>nombre del curso: {{curso.nombreCurso}} ({{curso.duracion}}h)</h4>
+            <h5>Descripción:</h5>
+            <p>{{curso.descripcion}}</p>
+        </li>
+    </ul>
+
+</div>
